@@ -1,0 +1,122 @@
+$ pnpm -r test
+Scope: 4 of 5 workspace projects
+apps/contrato test$ vitest run --passWithNoTests
+apps/contrato test:  RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/contrato
+apps/contrato test:  Test Files  1 passed (1)
+apps/contrato test:       Tests  29 passed (29)
+apps/contrato test:    Start at  10:19:52
+apps/contrato test:    Duration  1.38s (import 94%, transform 3%, worker 2%, tests 1%)
+apps/contrato test: Done
+apps/backend test$ vitest run --passWithNoTests
+apps/dashboard test$ vitest run --passWithNoTests
+apps/backend test:  RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/backend
+apps/dashboard test:  RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/dashboard
+apps/backend test:  ❯ test/processamento.test.ts (0 test)
+apps/backend test:  ❯ test/configuracoes.test.ts (0 test)
+apps/dashboard test:  Test Files  3 passed (3)
+apps/dashboard test:       Tests  30 passed (30)
+apps/dashboard test:    Start at  10:19:54
+apps/dashboard test:    Duration  212ms (transform 43%, import 33%, tests 15%, worker 8%)
+apps/dashboard test: Done
+apps/backend test:  ❯ test/integracao-rest-demo.test.ts (0 test)
+apps/backend test:  ❯ test/roteiro.test.ts (0 test)
+apps/backend test:  ❯ test/roteiros-versionados.test.ts (0 test)
+apps/backend test:  ❯ test/integracao-mqtt.test.ts (0 test)
+apps/backend test:  ❯ test/simulador.test.ts (0 test)
+apps/backend test:  ❯ test/encerramento.test.ts (0 test)
+apps/backend test: ⎯⎯⎯⎯⎯⎯ Failed Suites 8 ⎯⎯⎯⎯⎯⎯⎯
+apps/backend test:  FAIL  test/configuracoes.test.ts [ test/configuracoes.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\533d899ebcafc3939097ccd53e7752de61d33143'
+apps/backend test:  ❯ src/configuracoes.ts:4:1
+apps/backend test:       2| import { readFileSync, renameSync, writeFileSync } from 'node:fs'
+apps/backend test:       3| import { join } from 'node:path'
+apps/backend test:       4| import { Configuracoes } from '@tcc/contrato'
+apps/backend test:        | ^
+apps/backend test:       5|
+apps/backend test:       6| const NOME_ARQUIVO = 'configuracoes.json'
+apps/backend test:  ❯ test/configuracoes.test.ts:6:1
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/8]⎯
+apps/backend test:  FAIL  test/encerramento.test.ts [ test/encerramento.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\533d899ebcafc3939097ccd53e7752de61d33143'
+apps/backend test:  ❯ test/ajudantes.ts:9:1
+apps/backend test:       7| import { connectAsync, type MqttClient } from 'mqtt'
+apps/backend test:       8| import { WebSocket } from 'ws'
+apps/backend test:       9| import { MensagemWs, type Configuracoes } from '@tcc/contrato'
+apps/backend test:        | ^
+apps/backend test:      10|
+apps/backend test:      11| // Espera até a condição devolver algo verdadeiro, ou falha com o text…
+apps/backend test:  ❯ test/encerramento.test.ts:5:1
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/8]⎯
+apps/backend test:  FAIL  test/integracao-mqtt.test.ts [ test/integracao-mqtt.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\533d899ebcafc3939097ccd53e7752de61d33143'
+apps/backend test:  ❯ test/integracao-mqtt.test.ts:5:1
+apps/backend test:       3| import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+apps/backend test:       4| import { WebSocket } from 'ws'
+apps/backend test:       5| import { Saude } from '@tcc/contrato'
+apps/backend test:        | ^
+apps/backend test:       6| import { criarServidor, type Servidor } from '../src/servidor'
+apps/backend test:       7| import {
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/8]⎯
+apps/backend test:  FAIL  test/integracao-rest-demo.test.ts [ test/integracao-rest-demo.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\5302895c722beacdf9a74a88ef0443fe6c796f8e'
+apps/backend test:  ❯ test/integracao-rest-demo.test.ts:13:1
+apps/backend test:      11|   Saude,
+apps/backend test:      12| } from '@tcc/contrato'
+apps/backend test:      13| import { CABECALHO_CSV } from '../src/csv'
+apps/backend test:        | ^
+apps/backend test:      14| import { criarServidor, type OpcoesServidor, type Servidor } from '../…
+apps/backend test:      15| import {
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/8]⎯
+apps/backend test:  FAIL  test/processamento.test.ts [ test/processamento.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\533d899ebcafc3939097ccd53e7752de61d33143'
+apps/backend test:  ❯ src/processamento.ts:3:1
+apps/backend test:       1| // Funções puras que transformam o payload MQTT de estado em uma leitu…
+apps/backend test:       2| // (seção 5.4 do PRD): validação, latência fim a fim e perda de mensag…
+apps/backend test:       3| import { EstadoPayload, type LeituraComMetadados } from '@tcc/contrato'
+apps/backend test:        | ^
+apps/backend test:       4|
+apps/backend test:       5| // Latência = recebidoEm - ts. Com ts = 0 o dispositivo não sincronizo…
+apps/backend test:  ❯ test/processamento.test.ts:2:1
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/8]⎯
+apps/backend test:  FAIL  test/roteiro.test.ts [ test/roteiro.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\0d453f5aac346d2b3c7e0f610d99fe9220bc8769'
+apps/backend test:  ❯ src/simulador/roteiro.ts:19:1
+apps/backend test:      17| } from '@tcc/contrato'
+apps/backend test:      18| import { CONFIG_PADRAO_DISPOSITIVO, mesclarConfig } from '../config-di…
+apps/backend test:      19| import { calcularMetricas } from '../metricas'
+apps/backend test:        | ^
+apps/backend test:      20| import { novoEstadoDispositivo, passoDispositivo, type Ambiente } from…
+apps/backend test:      21|
+apps/backend test:  ❯ test/roteiro.test.ts:13:1
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/8]⎯
+apps/backend test:  FAIL  test/roteiros-versionados.test.ts [ test/roteiros-versionados.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\0d453f5aac346d2b3c7e0f610d99fe9220bc8769'
+apps/backend test:  ❯ src/simulador/roteiro.ts:19:1
+apps/backend test:      17| } from '@tcc/contrato'
+apps/backend test:      18| import { CONFIG_PADRAO_DISPOSITIVO, mesclarConfig } from '../config-di…
+apps/backend test:      19| import { calcularMetricas } from '../metricas'
+apps/backend test:        | ^
+apps/backend test:      20| import { novoEstadoDispositivo, passoDispositivo, type Ambiente } from…
+apps/backend test:      21|
+apps/backend test:  ❯ test/roteiros-versionados.test.ts:9:1
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/8]⎯
+apps/backend test:  FAIL  test/simulador.test.ts [ test/simulador.test.ts ]
+apps/backend test: Error: ENOENT: no such file or directory, open 'C:\Users\sengs\AppData\Local\Packages\sandbox.{26b0246e-5039-402b-9232-82bb77d94d4e}\AC\Temp\nQT1jwO0b6a7a2OIQa2wP\ssr\61b4dde53f757aab663e6976aaec38449ed06b50'
+apps/backend test:  ❯ src/simulador/dispositivo.ts:7:1
+apps/backend test:       5| import { connectAsync } from 'mqtt'
+apps/backend test:       6| import type { AmbienteDemo, ConfigDispositivo, EstadoPayload } from '@…
+apps/backend test:       7| import { CONFIG_PADRAO_DISPOSITIVO, aplicarConfigFirmware } from '../c…
+apps/backend test:        | ^
+apps/backend test:       8| import { novoEstadoDispositivo, passoDispositivo } from './nucleo'
+apps/backend test:       9|
+apps/backend test:  ❯ test/simulador.test.ts:5:1
+apps/backend test: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/8]⎯
+apps/backend test:  Test Files  8 failed | 4 passed (12)
+apps/backend test:       Tests  36 passed (36)
+apps/backend test:    Start at  10:19:54
+apps/backend test:    Duration  1.26s (transform 36%, tests 29%, import 20%, worker 14%)
+apps/backend test: Failed
+C:\Users\sengs\Documents\Codex\2026-10-16\voc-vai-me-ajudar-a-finalizar-2\work\tcc-automacao\apps\backend:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @tcc/backend@0.1.0 test: `vitest run --passWithNoTests`
+Exit status 1
+[ELIFECYCLE] Test failed. See above for more details.

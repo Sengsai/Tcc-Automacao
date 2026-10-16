@@ -1,0 +1,14 @@
+$ g++ -std=c++17 -Wall -Wextra -Ifirmware/include firmware/test/fsm_test.cpp -o /tmp/fsm_test && /tmp/fsm_test
+firmware/test/fsm_test.cpp: In function 'int main()':
+firmware/test/fsm_test.cpp:24:34: warning: missing initializer for member 'FsmConfig::confirmacaoPorNivelMs' [-Wmissing-field-initializers]
+   24 |     const FsmConfig c{30000, 0, 1};
+      |                                  ^
+firmware/test/fsm_test.cpp:39:38: warning: missing initializer for member 'FsmConfig::confirmacaoPorNivelMs' [-Wmissing-field-initializers]
+   39 |     const FsmConfig c{30000, 10000, 2};
+      |                                      ^
+firmware/test/fsm_test.cpp:86:34: warning: missing initializer for member 'FsmConfig::confirmacaoPorNivelMs' [-Wmissing-field-initializers]
+   86 |     const FsmConfig c{30000, 0, 1};
+      |                                  ^
+C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/toolchain/w64devkit/bin/ld.exe: cannot open output file /tmp/fsm_test.exe: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+[ELIFECYCLE] Command failed with exit code 1.

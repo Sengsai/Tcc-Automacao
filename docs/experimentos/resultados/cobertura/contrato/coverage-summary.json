@@ -1,0 +1,3 @@
+{"total": {"lines":{"total":31,"covered":29,"skipped":0,"pct":93.54},"statements":{"total":31,"covered":29,"skipped":0,"pct":93.54},"functions":{"total":3,"covered":1,"skipped":0,"pct":33.33},"branches":{"total":4,"covered":0,"skipped":0,"pct":0},"branchesTrue":{"total":0,"covered":0,"skipped":0,"pct":"Unknown"}}
+,"C:\\Users\\sengs\\Documents\\Codex\\2026-10-16\\voc-vai-me-ajudar-a-finalizar-2\\work\\tcc-automacao\\apps\\contrato\\src\\index.ts": {"lines":{"total":31,"covered":29,"skipped":0,"pct":93.54},"functions":{"total":3,"covered":1,"skipped":0,"pct":33.33},"statements":{"total":31,"covered":29,"skipped":0,"pct":93.54},"branches":{"total":4,"covered":0,"skipped":0,"pct":0}}
+}

@@ -1,0 +1,382 @@
+$ node scripts/cobertura.mjs
+
+ RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/backend
+      Coverage enabled with v8
+
+ ✓ test/csv.test.ts (4 tests) 3ms
+ ✓ src/simulador/fsm.test.ts (15 tests) 3ms
+ ✓ test/metricas.test.ts (8 tests) 3ms
+ ✓ test/processamento.test.ts (13 tests) 7ms
+ ✓ test/armazenamento.test.ts (9 tests) 131ms
+ ✓ test/configuracoes.test.ts (4 tests) 24ms
+ ✓ test/roteiro.test.ts (6 tests) 12ms
+ ✓ test/roteiros-versionados.test.ts (6 tests) 94ms
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > publica logo ao iniciar: DESOCUPADO com o ambiente inicial e seq 0
+[broker] MQTT embutido escutando na porta 56939
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > publica logo ao iniciar: DESOCUPADO com o ambiente inicial e seq 0
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > pulso de PIR: OCUPADO com luz (120 < 300 lux) e HVAC (28 > 26 °C), publicado na hora
+[broker] MQTT embutido escutando na porta 64861
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > pulso de PIR: OCUPADO com luz (120 < 300 lux) e HVAC (28 > 26 °C), publicado na hora
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > um estado publicado por um cliente MQTT vira linha no banco e mensagens no WebSocket
+[broker] MQTT embutido escutando na porta 64864
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > liga o demo, injeta PIR e observa OCUPADO com luz e HVAC; tempAlvo 30 desliga o HVAC
+[broker] MQTT embutido escutando na porta 64866
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > um estado publicado por um cliente MQTT vira linha no banco e mensagens no WebSocket
+[servidor] pronto em http://127.0.0.1:64868 (MQTT embutido na porta 64864)
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > liga o demo, injeta PIR e observa OCUPADO com luz e HVAC; tempAlvo 30 desliga o HVAC
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > liga o demo, injeta PIR e observa OCUPADO com luz e HVAC; tempAlvo 30 desliga o HVAC
+[servidor] pronto em http://127.0.0.1:64873 (MQTT embutido na porta 64866)
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > o PIR fica alto por 5 s; sem movimento por t_ocupado volta a DESOCUPADO; seq sempre crescente
+[broker] MQTT embutido escutando na porta 64875
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > o PIR fica alto por 5 s; sem movimento por t_ocupado volta a DESOCUPADO; seq sempre crescente
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > ao conectar, o WebSocket informa o estado atual da conexão e do demo
+[broker] MQTT embutido escutando na porta 64879
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > ao conectar, o WebSocket informa o estado atual da conexão e do demo
+[servidor] pronto em http://127.0.0.1:64881 (MQTT embutido na porta 64879)
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > recusa upgrade de WebSocket em qualquer caminho que não seja /ws
+[broker] MQTT embutido escutando na porta 64883
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > recusa upgrade de WebSocket em qualquer caminho que não seja /ws
+[servidor] pronto em http://127.0.0.1:64885 (MQTT embutido na porta 64883)
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > detecta perda por lacuna em seq e reinício do dispositivo
+[broker] MQTT embutido escutando na porta 64887
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > detecta perda por lacuna em seq e reinício do dispositivo
+[servidor] pronto em http://127.0.0.1:64889 (MQTT embutido na porta 64887)
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > ts = 0 (NTP não sincronizou) grava latência nula
+[broker] MQTT embutido escutando na porta 64892
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > ts = 0 (NTP não sincronizou) grava latência nula
+[servidor] pronto em http://127.0.0.1:64894 (MQTT embutido na porta 64892)
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > payload inválido não derruba o servidor nem gera linha; o válido seguinte é gravado
+[broker] MQTT embutido escutando na porta 64897
+
+stdout | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > payload inválido não derruba o servidor nem gera linha; o válido seguinte é gravado
+[servidor] pronto em http://127.0.0.1:64899 (MQTT embutido na porta 64897)
+
+stderr | test/integracao-mqtt.test.ts > servidor completo: broker embutido → banco → WebSocket > payload inválido não derruba o servidor nem gera linha; o válido seguinte é gravado
+[mqtt] mensagem descartada em tcc/sala01/estado: JSON inválido
+[mqtt] mensagem descartada em tcc/sala01/estado: estado: Invalid option: expected one of "DESOCUPADO"|"CONFIRMANDO"|"OCUPADO"
+
+stdout | test/integracao-mqtt.test.ts > GET /api/saude > informa broker embutido conectado e as portas reais
+[broker] MQTT embutido escutando na porta 64906
+
+stdout | test/integracao-mqtt.test.ts > GET /api/saude > informa broker embutido conectado e as portas reais
+[servidor] pronto em http://127.0.0.1:64908 (MQTT embutido na porta 64906)
+
+ ✓ test/encerramento.test.ts (1 test) 535ms
+   ✓ parar() (1)
+     ✓ deixa o processo terminar sozinho, com código 0, em menos de 5 s (sem handles abertos) 534ms
+stdout | test/integracao-mqtt.test.ts > GET /api/saude > a url do servidor aponta para o loopback na porta HTTP real
+[broker] MQTT embutido escutando na porta 64910
+
+stdout | test/integracao-mqtt.test.ts > GET /api/saude > a url do servidor aponta para o loopback na porta HTTP real
+[servidor] pronto em http://127.0.0.1:64912 (MQTT embutido na porta 64910)
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > a config chega ao dispositivo pelo broker, no tópico <raiz>/<id>/config
+[broker] MQTT embutido escutando na porta 64915
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > a config chega ao dispositivo pelo broker, no tópico <raiz>/<id>/config
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > a config chega ao dispositivo pelo broker, no tópico <raiz>/<id>/config
+[servidor] pronto em http://127.0.0.1:64918 (MQTT embutido na porta 64915)
+
+stderr | test/integracao-mqtt.test.ts > fallback de porta ocupada (EADDRINUSE) > usa uma porta livre para HTTP e MQTT e informa as reais em /api/saude
+[portas] porta 64914 ocupada; usando uma porta livre
+
+stdout | test/integracao-mqtt.test.ts > fallback de porta ocupada (EADDRINUSE) > usa uma porta livre para HTTP e MQTT e informa as reais em /api/saude
+[broker] MQTT embutido escutando na porta 64920
+
+stderr | test/integracao-mqtt.test.ts > fallback de porta ocupada (EADDRINUSE) > usa uma porta livre para HTTP e MQTT e informa as reais em /api/saude
+[portas] porta 64913 ocupada; usando uma porta livre
+
+stdout | test/integracao-mqtt.test.ts > fallback de porta ocupada (EADDRINUSE) > usa uma porta livre para HTTP e MQTT e informa as reais em /api/saude
+[servidor] pronto em http://127.0.0.1:64923 (MQTT embutido na porta 64920)
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > POST /api/demo liga e desliga o simulador e avisa pelo WebSocket
+[broker] MQTT embutido escutando na porta 64927
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > POST /api/demo liga e desliga o simulador e avisa pelo WebSocket
+[servidor] pronto em http://127.0.0.1:64929 (MQTT embutido na porta 64927)
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > config pelo broker: tempAlvo 30 desliga o HVAC; luxLimiar 50 apaga a luz
+[broker] MQTT embutido escutando na porta 64932
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > config pelo broker: tempAlvo 30 desliga o HVAC; luxLimiar 50 apaga a luz
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > POST /api/demo liga e desliga o simulador e avisa pelo WebSocket
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+ ✓ test/integracao-mqtt.test.ts (9 tests) 409ms
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > POST /api/demo/ambiente altera os sensores simulados
+[broker] MQTT embutido escutando na porta 64937
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > POST /api/demo/ambiente altera os sensores simulados
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > modo Demo ponta a ponta (relógio injetado) > POST /api/demo/ambiente altera os sensores simulados
+[servidor] pronto em http://127.0.0.1:64940 (MQTT embutido na porta 64937)
+
+stdout | test/integracao-rest-demo.test.ts > leituras, métricas e CSV > lista dispositivos, leituras (com limite e intervalo) e métricas no formato do contrato
+[broker] MQTT embutido escutando na porta 64943
+
+stdout | test/integracao-rest-demo.test.ts > leituras, métricas e CSV > lista dispositivos, leituras (com limite e intervalo) e métricas no formato do contrato
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > leituras, métricas e CSV > lista dispositivos, leituras (com limite e intervalo) e métricas no formato do contrato
+[servidor] pronto em http://127.0.0.1:64946 (MQTT embutido na porta 64943)
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > config parcialmente inválida aplica só o que vale, como o onConfig do firmware
+[broker] MQTT embutido escutando na porta 64949
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > config parcialmente inválida aplica só o que vale, como o onConfig do firmware
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > leituras, métricas e CSV > export.csv devolve o cabeçalho e uma linha por leitura
+[broker] MQTT embutido escutando na porta 64973
+
+stdout | test/integracao-rest-demo.test.ts > leituras, métricas e CSV > export.csv devolve o cabeçalho e uma linha por leitura
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > leituras, métricas e CSV > export.csv devolve o cabeçalho e uma linha por leitura
+[servidor] pronto em http://127.0.0.1:64976 (MQTT embutido na porta 64973)
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > definirAmbiente muda os sensores publicados
+[broker] MQTT embutido escutando na porta 64979
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > definirAmbiente muda os sensores publicados
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > parar() interrompe as publicações
+[broker] MQTT embutido escutando na porta 64982
+
+stdout | test/simulador.test.ts > dispositivo simulado (modo Demo) > parar() interrompe as publicações
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > erros > 404 para dispositivo desconhecido em todas as rotas por id
+[broker] MQTT embutido escutando na porta 64986
+
+stdout | test/integracao-rest-demo.test.ts > erros > 404 para dispositivo desconhecido em todas as rotas por id
+[servidor] pronto em http://127.0.0.1:64988 (MQTT embutido na porta 64986)
+
+stdout | test/integracao-rest-demo.test.ts > erros > 400 para id de dispositivo malformado
+[broker] MQTT embutido escutando na porta 64991
+
+stdout | test/integracao-rest-demo.test.ts > erros > 400 para id de dispositivo malformado
+[servidor] pronto em http://127.0.0.1:64993 (MQTT embutido na porta 64991)
+
+stdout | test/integracao-rest-demo.test.ts > erros > 400 para config inválida (tipo errado, campo desconhecido, JSON quebrado)
+[broker] MQTT embutido escutando na porta 64995
+
+stdout | test/integracao-rest-demo.test.ts > erros > 400 para config inválida (tipo errado, campo desconhecido, JSON quebrado)
+[servidor] pronto em http://127.0.0.1:64997 (MQTT embutido na porta 64995)
+
+stdout | test/integracao-rest-demo.test.ts > erros > 400 para parâmetros de consulta inválidos
+[broker] MQTT embutido escutando na porta 65001
+
+stdout | test/integracao-rest-demo.test.ts > erros > 400 para parâmetros de consulta inválidos
+[servidor] pronto em http://127.0.0.1:65003 (MQTT embutido na porta 65001)
+
+stdout | test/integracao-rest-demo.test.ts > erros > 409 nas rotas de demo com o demo desligado, e 400 para corpo inválido com ele ligado
+[broker] MQTT embutido escutando na porta 65007
+
+stdout | test/integracao-rest-demo.test.ts > erros > 409 nas rotas de demo com o demo desligado, e 400 para corpo inválido com ele ligado
+[servidor] pronto em http://127.0.0.1:65009 (MQTT embutido na porta 65007)
+
+stdout | test/integracao-rest-demo.test.ts > erros > 409 nas rotas de demo com o demo desligado, e 400 para corpo inválido com ele ligado
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > erros > rota /api inexistente responde 404 em JSON
+[broker] MQTT embutido escutando na porta 65013
+
+stdout | test/integracao-rest-demo.test.ts > erros > rota /api inexistente responde 404 em JSON
+[servidor] pronto em http://127.0.0.1:65015 (MQTT embutido na porta 65013)
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > GET /api/configuracoes devolve a configuração atual
+[broker] MQTT embutido escutando na porta 65017
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > GET /api/configuracoes devolve a configuração atual
+[servidor] pronto em http://127.0.0.1:65019 (MQTT embutido na porta 65017)
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT troca para broker externo e volta ao embutido sem reiniciar
+[broker] MQTT embutido escutando na porta 65021
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT troca para broker externo e volta ao embutido sem reiniciar
+[servidor] pronto em http://127.0.0.1:65023 (MQTT embutido na porta 65021)
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT troca para broker externo e volta ao embutido sem reiniciar
+[broker] MQTT embutido escutando na porta 65024
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT troca para broker externo e volta ao embutido sem reiniciar
+[servidor] pronto em http://127.0.0.1:65026 (MQTT embutido na porta 65024)
+
+ ✓ test/simulador.test.ts (7 tests) 1689ms
+   ✓ dispositivo simulado (modo Demo) (7)
+     ✓ o PIR fica alto por 5 s; sem movimento por t_ocupado volta a DESOCUPADO; seq sempre crescente 339ms
+     ✓ config pelo broker: tempAlvo 30 desliga o HVAC; luxLimiar 50 apaga a luz 340ms
+     ✓ parar() interrompe as publicações 434ms
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT troca para broker externo e volta ao embutido sem reiniciar
+[broker] MQTT embutido escutando na porta 65032
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT troca para broker externo e volta ao embutido sem reiniciar
+[demo] dispositivo simulado sala01 conectado ao broker embutido
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT com configuração inválida responde 400 e não altera nada
+[broker] MQTT embutido escutando na porta 65035
+
+stdout | test/integracao-rest-demo.test.ts > configurações e troca de broker a quente > PUT com configuração inválida responde 400 e não altera nada
+[servidor] pronto em http://127.0.0.1:65037 (MQTT embutido na porta 65035)
+
+stdout | test/integracao-rest-demo.test.ts > arquivos estáticos do dashboard > serve o build, e devolve index.html para rotas da SPA
+[broker] MQTT embutido escutando na porta 65040
+
+stdout | test/integracao-rest-demo.test.ts > arquivos estáticos do dashboard > serve o build, e devolve index.html para rotas da SPA
+[servidor] pronto em http://127.0.0.1:65042 (MQTT embutido na porta 65040)
+
+stdout | test/integracao-rest-demo.test.ts > arquivos estáticos do dashboard > sem dirEstatico não serve arquivos
+[broker] MQTT embutido escutando na porta 65045
+
+stdout | test/integracao-rest-demo.test.ts > arquivos estáticos do dashboard > sem dirEstatico não serve arquivos
+[servidor] pronto em http://127.0.0.1:65047 (MQTT embutido na porta 65045)
+
+ ✓ test/integracao-rest-demo.test.ts (17 tests) 1712ms
+   ✓ modo Demo ponta a ponta (relógio injetado) (4)
+     ✓ liga o demo, injeta PIR e observa OCUPADO com luz e HVAC; tempAlvo 30 desliga o HVAC 338ms
+   ✓ leituras, métricas e CSV (2)
+     ✓ lista dispositivos, leituras (com limite e intervalo) e métricas no formato do contrato 328ms
+
+ Test Files  12 passed (12)
+      Tests  99 passed (99)
+   Start at  10:25:41
+   Duration  2.56s (tests 60%, import 26%, transform 10%, worker 3%)
+
+JSON report written to C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/docs/experimentos/resultados/cobertura/backend/testes.json
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   80.02 |     76.9 |   85.62 |   81.68 |                   
+ src               |   91.87 |    84.18 |   91.66 |   94.59 |                   
+  armazenamento.ts |   95.45 |    91.66 |     100 |     100 | 124               
+  broker.ts        |      70 |      100 |      60 |   71.42 | 18,21,28-29       
+  cli.ts           |       0 |      100 |       0 |       0 | 4-11              
+  cliente-mqtt.ts  |      80 |    59.09 |   84.61 |   86.48 | 64-65,68,77-78    
+  ...ispositivo.ts |      90 |    94.11 |     100 |     100 | 23,27             
+  configuracoes.ts |   94.73 |       75 |     100 |   94.11 | 20                
+  portas.ts        |   93.75 |       75 |     100 |   93.75 | 32                
+  processamento.ts |     100 |       90 |     100 |     100 | 33                
+  rotas.ts         |   94.62 |    87.17 |     100 |   97.56 | 173-174           
+  servidor.ts      |   96.69 |       80 |   96.15 |   98.21 | 250-251           
+  ws.ts            |      92 |    66.66 |   81.81 |     100 | 22-40             
+ src/experimentos  |       0 |        0 |       0 |       0 |                   
+  cli.ts           |       0 |        0 |       0 |       0 | 13-108            
+  latencia.ts      |       0 |        0 |       0 |       0 | 16-104            
+ src/simulador     |   97.63 |    90.26 |   95.45 |   99.31 |                   
+  dispositivo.ts   |   91.11 |    66.66 |   88.88 |    97.5 | 54                
+  fsm.ts           |     100 |    93.75 |     100 |     100 | 72,76             
+  roteiro.ts       |     100 |    94.64 |     100 |     100 | 48,62,68          
+-------------------|---------|----------|---------|---------|-------------------
+
+=============================== Coverage summary ===============================
+Statements   : 80.02% ( 561/701 )
+Branches     : 76.9% ( 283/368 )
+Functions    : 85.62% ( 131/153 )
+Lines        : 81.68% ( 495/606 )
+================================================================================
+
+ RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/contrato
+      Coverage enabled with v8
+
+ ✓ src/index.test.ts (29 tests) 12ms
+
+ Test Files  1 passed (1)
+      Tests  29 passed (29)
+   Start at  10:25:44
+   Duration  278ms (import 66%, transform 18%, worker 8%, tests 7%)
+
+JSON report written to C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/docs/experimentos/resultados/cobertura/contrato/testes.json
+ % Coverage report from v8
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |   93.54 |        0 |   33.33 |   93.54 |                   
+ index.ts |   93.54 |        0 |   33.33 |   93.54 | 254-257           
+----------|---------|----------|---------|---------|-------------------
+
+=============================== Coverage summary ===============================
+Statements   : 93.54% ( 29/31 )
+Branches     : 0% ( 0/4 )
+Functions    : 33.33% ( 1/3 )
+Lines        : 93.54% ( 29/31 )
+================================================================================
+
+ RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/dashboard
+      Coverage enabled with v8
+
+ ✓ src/reconexao.test.ts (3 tests) 3ms
+ ✓ src/serie.test.ts (13 tests) 6ms
+ ✓ src/formatar.test.ts (14 tests) 12ms
+
+ Test Files  3 passed (3)
+      Tests  30 passed (30)
+   Start at  10:25:44
+   Duration  279ms (transform 38%, import 29%, worker 21%, tests 12%)
+
+JSON report written to C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/docs/experimentos/resultados/cobertura/dashboard/testes.json
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |    8.64 |     3.97 |    9.89 |    7.75 |                   
+ src               |   18.56 |    17.43 |   20.68 |   17.37 |                   
+  App.tsx          |       0 |        0 |       0 |       0 | 11-84             
+  api.ts           |       0 |        0 |       0 |       0 | 18-90             
+  contexto.tsx     |       0 |        0 |       0 |       0 | 16-207            
+  formatar.ts      |   88.88 |       75 |   71.42 |   84.61 | 34-43             
+  main.tsx         |       0 |      100 |     100 |       0 | 6                 
+  serie.ts         |     100 |     90.9 |     100 |     100 | 43                
+  useAgora.ts      |       0 |        0 |       0 |       0 | 6-13              
+  useWs.ts         |       0 |        0 |       0 |       0 | 15-60             
+ src/componentes   |       0 |        0 |       0 |       0 |                   
+  ...rolesDemo.tsx |       0 |        0 |       0 |       0 | 11-88             
+  ...ramaEsp32.tsx |       0 |        0 |       0 |       0 | 19-190            
+  DiagramaFsm.tsx  |       0 |        0 |       0 |       0 | 12-104            
+  Graficos.tsx     |       0 |        0 |       0 |       0 | 21-164            
+  ...orConexao.tsx |       0 |        0 |       0 |       0 | 9-42              
+  LogMqtt.tsx      |       0 |        0 |       0 |       0 | 6-33              
+  PainelAjuste.tsx |       0 |        0 |       0 |       0 | 23-186            
+  ...spositivo.tsx |       0 |        0 |       0 |       0 | 4-18              
+ src/telas         |       0 |        0 |       0 |       0 |                   
+  ...iguracoes.tsx |       0 |        0 |       0 |       0 | 13-229            
+  Controladora.tsx |       0 |        0 |       0 |       0 | 14-88             
+  Historico.tsx    |       0 |        0 |       0 |       0 | 11-163            
+-------------------|---------|----------|---------|---------|-------------------
+
+=============================== Coverage summary ===============================
+Statements   : 8.64% ( 49/567 )
+Branches     : 3.97% ( 19/478 )
+Functions    : 9.89% ( 18/182 )
+Lines        : 7.75% ( 37/477 )
+================================================================================
