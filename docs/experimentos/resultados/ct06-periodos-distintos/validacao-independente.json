@@ -1,0 +1,60 @@
+{
+  "metodo": "Recalculo independente em Python: statistics.mean/median/pstdev; p95 nearest-rank; perdas do CSV e reconexoes dos eventos.",
+  "todasConferidas": true,
+  "execucoes": [
+    {
+      "id": "agora",
+      "estatisticasPython": {
+        "amostras": 23,
+        "minMs": 273.32790000000386,
+        "mediaMs": 302.2010739130441,
+        "medianaMs": 295.59159999999974,
+        "desvioPadraoPopulacionalMs": 26.169524440631015,
+        "p95Ms": 354.3478999999934,
+        "maxMs": 390.92200000000594
+      },
+      "linhasCSV": 110,
+      "perdidasCSV": 0,
+      "reconexoesEsp32": 0,
+      "reconexoesBackend": 0,
+      "configuracaoPreservada": true,
+      "confirmacoesSemSonda": 0
+    },
+    {
+      "id": "16h45",
+      "estatisticasPython": {
+        "amostras": 23,
+        "minMs": 309.2161000000051,
+        "mediaMs": 643.3482217391299,
+        "medianaMs": 455.5604999999996,
+        "desvioPadraoPopulacionalMs": 360.33930887271487,
+        "p95Ms": 1400.4450999999826,
+        "maxMs": 1495.1138999999966
+      },
+      "linhasCSV": 76,
+      "perdidasCSV": 25,
+      "reconexoesEsp32": 0,
+      "reconexoesBackend": 1,
+      "configuracaoPreservada": true,
+      "confirmacoesSemSonda": 0
+    },
+    {
+      "id": "19h45",
+      "estatisticasPython": {
+        "amostras": 23,
+        "minMs": 282.8006000000023,
+        "mediaMs": 369.8230086956515,
+        "medianaMs": 314.65119999999297,
+        "desvioPadraoPopulacionalMs": 162.19626578537634,
+        "p95Ms": 621.1425999999992,
+        "maxMs": 1046.9584999999934
+      },
+      "linhasCSV": 106,
+      "perdidasCSV": 0,
+      "reconexoesEsp32": 0,
+      "reconexoesBackend": 0,
+      "configuracaoPreservada": true,
+      "confirmacoesSemSonda": 0
+    }
+  ]
+}

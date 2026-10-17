@@ -1,12 +1,12 @@
 # CT-06: coleta em períodos distintos — dados e análise técnica
 
-Duas execuções oficiais realizadas; falta somente o período das 19:45. Consulte `analise-comparativa.json` para o estado atualizado; `concluida` somente será true quando os três períodos tiverem dados. O piloto não integra essa comparação.
+Três execuções oficiais concluídas em 17/10/2026. Dados completos e análise técnica em RESULTADOS.md. Consulte `analise-comparativa.json` para o estado atualizado; `concluida` somente será true quando os três períodos tiverem dados. O piloto não integra essa comparação.
 
 ## Agenda (Brasília)
 
 - Período 1: 17/10/2026, início previsto 13:40; aquisição iniciada 13:41:22.782.
 - Período 2: 17/10/2026, início previsto 16:45; aquisição iniciada 16:45:41.564.
-- Período 3: 17/10/2026, 19:45.
+- Período 3: 17/10/2026, início previsto 19:45; aquisição iniciada 19:46:10.080.
 
 Cada execução tem quatro minutos reais de aquisição após a primeira leitura com NTP, com até 45 segundos de inicialização. Essa duração mantém a sessão inteira dentro do limite de cinco minutos do plano gratuito. O horário real é registrado, sem renomear uma coleta atrasada como se tivesse ocorrido no horário previsto. Tolerância máxima de início: 15 minutos. O computador e o aplicativo precisam estar ativos e conectados.
 
@@ -50,4 +50,4 @@ O executor não espera horas: é chamado pelo agendamento. Se o período foi per
 
 ## Resultado parcial do segundo período
 
-Aquisição de 240007 ms: 76 mensagens recebidas e 25 perdas estimadas por lacunas de sequência (24,752475%). Houve um timeout de keepalive MQTT e uma reconexão do backend, sem reconexão do ESP32 identificada no serial. As 23 sondas foram confirmadas; média 643,348222 ms, mediana 455,560500 ms e p95 1400,445100 ms. Configuração preservada, nenhuma confirmação sem sonda. O evento de conexão permanece nos dados brutos; a execução não foi descartada nem repetida por apresentar perda. A comparação permanece parcial até a terceira aquisição.
+Aquisição de 240007 ms: 76 mensagens recebidas e 25 perdas estimadas por lacunas de sequência (24,752475%). Houve um timeout de keepalive MQTT e uma reconexão do backend, sem reconexão do ESP32 identificada no serial. As 23 sondas foram confirmadas; média 643,348222 ms, mediana 455,560500 ms e p95 1400,445100 ms. Configuração preservada, nenhuma confirmação sem sonda. O evento de conexão permanece nos dados brutos; a execução não foi descartada nem repetida por apresentar perda. A comparação final das três aquisições está em RESULTADOS.md e analise-comparativa.json.
