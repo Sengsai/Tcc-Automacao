@@ -1,0 +1,42 @@
+{
+  "inicio": 1792252370778,
+  "fim": 1792252670791,
+  "inicioBrasilia": "17/10/2026, 12:52:50",
+  "duracaoSolicitadaMs": 300000,
+  "broker": "broker.hivemq.com:1883",
+  "topico": "tcc-unip-7f3a9c/sala01/estado",
+  "demo": false,
+  "metricas": {
+    "latencia": {
+      "minMs": -150,
+      "mediaMs": 9249.755555555555,
+      "p95Ms": 18091,
+      "maxMs": 18930,
+      "amostras": 135
+    },
+    "perda": {
+      "recebidas": 136,
+      "perdidas": 0,
+      "taxa": 0
+    },
+    "tempoLigado": {
+      "luzMs": 0,
+      "hvacMs": 0
+    },
+    "ocupacao": {
+      "transicoes": 0,
+      "tempoOcupadoMs": 0
+    }
+  },
+  "medianaMs": 9113,
+  "desvioPadraoPopulacionalMs": 5565.266560407961,
+  "latenciasNegativas": 2,
+  "reconexoesEsp32": 0,
+  "reconexoesBackend": 0,
+  "observacoes": [
+    "Latência depende da diferença entre relógios do PC e ESP32 sincronizado por NTP.",
+    "Perda estimada por lacunas de seq; não detecta perdas antes da primeira ou depois da última mensagem.",
+    "A janela de cinco minutos inclui inicialização e conexão; a primeira conexão do ESP32 não conta como reconexão. Backend já está conectado antes da janela.",
+    "O tópico e client ID do firmware são fixos; não executar outra instância desse firmware simultaneamente."
+  ]
+}

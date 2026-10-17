@@ -1,0 +1,10 @@
+{"recebidoEm":1792251081929,"tipo":"websocket","dados":{"tipo":"conexao","broker":{"modo":"externo","conectado":false}}}
+{"recebidoEm":1792251081929,"tipo":"websocket","dados":{"tipo":"demo","ativo":false}}
+{"recebidoEm":1792251082346,"tipo":"websocket","dados":{"tipo":"conexao","broker":{"modo":"externo","conectado":true}}}
+{"recebidoEm":1792251082956,"tipo":"inicio-coleta","dados":{"inicio":1792251082956,"duracao":300000,"incluiInicializacao":true}}
+{"recebidoEm":1792251083012,"tipo":"serial","dados":"Wokwi CLI v0.28.1 (7cf4ffaebfd8)"}
+{"recebidoEm":1792251083510,"tipo":"serial","dados":"Connected to Wokwi Simulation API 1.0.0-20261016-g70535d1e"}
+{"recebidoEm":1792251086279,"tipo":"wokwi-stderr","dados":"API Error: Connection to transport closed unexpectedly: code 1006\n"}
+{"recebidoEm":1792251086287,"tipo":"fim-wokwi","dados":{"code":1,"signal":null}}
+{"recebidoEm":1792251086980,"tipo":"falha","dados":"Simulação terminou antes do fim da janela; consultar os logs."}
+{"recebidoEm":1792251086982,"tipo":"fim-websocket","dados":null}

@@ -1,0 +1,17 @@
+{
+  "protocolo": "Seis janelas de cinco minutos, incluindo inicializacao, agrupadas em tres pares; autorizado por Gabriel em 17/10/2026",
+  "baseGit": "a3e9b9a0912934626a9b2975590fe3cc801c2e8a",
+  "firmwareSha256": "FF74CE08BE37A4A0A1408021FECAFAB8C10D875F9916818A8A3CA69335D5603E",
+  "wokwiCli": "0.28.1",
+  "node": "24.19.0",
+  "pnpm": "11.11.0",
+  "broker": "broker.hivemq.com:1883",
+  "topico": "tcc-unip-7f3a9c/sala01/estado",
+  "demo": false,
+  "timezone": "America/Sao_Paulo",
+  "desvioPadrao": "populacional",
+  "p95": "nearest-rank",
+  "janelaMs": 300000,
+  "limiteSimulacaoMs": 420000,
+  "observacaoLimite": "O limite remoto do plano e cinco minutos de sessao; o limite local e apenas uma protecao adicional."
+}

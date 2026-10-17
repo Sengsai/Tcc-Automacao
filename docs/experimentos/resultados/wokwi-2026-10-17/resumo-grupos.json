@@ -1,0 +1,83 @@
+[
+  {
+    "grupo": 1,
+    "sessoes": [
+      1,
+      2
+    ],
+    "inicioBrasilia": "17/10/2026, 12:26:12",
+    "fimBrasilia": "17/10/2026, 12:37:08",
+    "duracaoSomadaJanelasMs": 600020,
+    "intervaloEntreSessoesMs": 56164,
+    "spanTotalMs": 656184,
+    "reiniciosPlanejados": 1,
+    "reconexoesEsp32": 0,
+    "reconexoesBackend": 0,
+    "mensagens": 272,
+    "amostrasLatencia": 268,
+    "semNtp": 4,
+    "minMs": -174,
+    "mediaMs": 9495.90671641791,
+    "medianaMs": 9464.5,
+    "desvioPadraoPopulacionalMs": 5531.103721286245,
+    "p95Ms": 18113,
+    "maxMs": 19974,
+    "latenciasNegativas": 3,
+    "perdidas": 0,
+    "taxaPerda": 0
+  },
+  {
+    "grupo": 2,
+    "sessoes": [
+      3,
+      4
+    ],
+    "inicioBrasilia": "17/10/2026, 12:37:19",
+    "fimBrasilia": "17/10/2026, 12:47:29",
+    "duracaoSomadaJanelasMs": 600008,
+    "intervaloEntreSessoesMs": 10536,
+    "spanTotalMs": 610544,
+    "reiniciosPlanejados": 1,
+    "reconexoesEsp32": 0,
+    "reconexoesBackend": 0,
+    "mensagens": 271,
+    "amostrasLatencia": 268,
+    "semNtp": 3,
+    "minMs": -158,
+    "mediaMs": 9245.694029850747,
+    "medianaMs": 9214.5,
+    "desvioPadraoPopulacionalMs": 5567.778255721912,
+    "p95Ms": 18283,
+    "maxMs": 20215,
+    "latenciasNegativas": 4,
+    "perdidas": 0,
+    "taxaPerda": 0
+  },
+  {
+    "grupo": 3,
+    "sessoes": [
+      5,
+      6
+    ],
+    "inicioBrasilia": "17/10/2026, 12:47:40",
+    "fimBrasilia": "17/10/2026, 12:57:50",
+    "duracaoSomadaJanelasMs": 600025,
+    "intervaloEntreSessoesMs": 10573,
+    "spanTotalMs": 610598,
+    "reiniciosPlanejados": 1,
+    "reconexoesEsp32": 0,
+    "reconexoesBackend": 0,
+    "mensagens": 273,
+    "amostrasLatencia": 270,
+    "semNtp": 3,
+    "minMs": -150,
+    "mediaMs": 9178.31851851852,
+    "medianaMs": 9092.5,
+    "desvioPadraoPopulacionalMs": 5530.844208754113,
+    "p95Ms": 17932,
+    "maxMs": 18930,
+    "latenciasNegativas": 3,
+    "perdidas": 0,
+    "taxaPerda": 0
+  }
+]

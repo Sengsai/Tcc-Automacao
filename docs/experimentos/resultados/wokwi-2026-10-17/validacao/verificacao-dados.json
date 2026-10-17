@@ -1,0 +1,44 @@
+[
+  {
+    "grupo": 1,
+    "conferidoComStatisticsPython": true,
+    "mensagens": 272,
+    "amostrasLatencia": 268,
+    "minMs": -174,
+    "mediaMs": 9495.90671641791,
+    "medianaMs": 9464.5,
+    "desvioPadraoPopulacionalMs": 5531.103721286244,
+    "p95Ms": 18113,
+    "maxMs": 19974,
+    "latenciasNegativas": 3,
+    "perdidas": 0
+  },
+  {
+    "grupo": 2,
+    "conferidoComStatisticsPython": true,
+    "mensagens": 271,
+    "amostrasLatencia": 268,
+    "minMs": -158,
+    "mediaMs": 9245.694029850747,
+    "medianaMs": 9214.5,
+    "desvioPadraoPopulacionalMs": 5567.778255721912,
+    "p95Ms": 18283,
+    "maxMs": 20215,
+    "latenciasNegativas": 4,
+    "perdidas": 0
+  },
+  {
+    "grupo": 3,
+    "conferidoComStatisticsPython": true,
+    "mensagens": 273,
+    "amostrasLatencia": 270,
+    "minMs": -150,
+    "mediaMs": 9178.31851851852,
+    "medianaMs": 9092.5,
+    "desvioPadraoPopulacionalMs": 5530.844208754113,
+    "p95Ms": 17932,
+    "maxMs": 18930,
+    "latenciasNegativas": 3,
+    "perdidas": 0
+  }
+]

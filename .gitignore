@@ -4,3 +4,6 @@ firmware/.pio/
 dist/
 .dados/
 apps/desktop/release/
+
+# Bancos de trabalho dos experimentos; CSVs e eventos permanecem versionados.
+docs/experimentos/resultados/**/backend/leituras.db*

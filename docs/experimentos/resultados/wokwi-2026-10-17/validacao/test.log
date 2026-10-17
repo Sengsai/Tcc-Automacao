@@ -1,0 +1,26 @@
+$ pnpm -r test
+Scope: 4 of 5 workspace projects
+apps/contrato test$ vitest run --passWithNoTests
+apps/contrato test:  RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/contrato
+apps/contrato test:  Test Files  1 passed (1)
+apps/contrato test:       Tests  29 passed (29)
+apps/contrato test:    Start at  12:58:28
+apps/contrato test:    Duration  484ms (import 58%, transform 23%, worker 13%, tests 5%)
+apps/contrato test: Done
+apps/backend test$ vitest run --passWithNoTests
+apps/dashboard test$ vitest run --passWithNoTests
+apps/backend test:  RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/backend
+apps/dashboard test:  RUN  v5.0.1 C:/Users/sengs/Documents/Codex/2026-10-16/voc-vai-me-ajudar-a-finalizar-2/work/tcc-automacao/apps/dashboard
+apps/dashboard test:  Test Files  3 passed (3)
+apps/dashboard test:       Tests  30 passed (30)
+apps/dashboard test:    Start at  12:58:29
+apps/dashboard test:    Duration  234ms (transform 46%, import 35%, tests 13%, worker 6%)
+apps/dashboard test: Done
+apps/backend test:  Test Files  12 passed (12)
+apps/backend test:       Tests  99 passed (99)
+apps/backend test:    Start at  12:58:29
+apps/backend test:    Duration  2.45s (tests 65%, import 26%, transform 8%, worker 1%)
+apps/backend test: Done
+apps/desktop test$ node -e "console.log('desktop: sem testes próprios; verificado pelo app empacotado (Task 7)')"
+apps/desktop test: desktop: sem testes próprios; verificado pelo app empacotado (Task 7)
+apps/desktop test: Done
