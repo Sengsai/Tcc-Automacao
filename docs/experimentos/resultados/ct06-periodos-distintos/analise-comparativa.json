@@ -1,0 +1,71 @@
+{
+  "protocolo": "quatro minutos após primeira leitura NTP; três períodos distintos",
+  "concluida": false,
+  "execucoesRealizadas": 1,
+  "falta": [
+    "16h45",
+    "19h45"
+  ],
+  "observacao": "Tempo de resposta inclui REST local, MQTT de ida, processamento do ESP32 e retorno serial via Wokwi/CLI. Não é latência unidirecional, não é RTT exclusivamente MQTT, não dividir por dois e não comparar diretamente com 2791 ms.",
+  "execucoes": [
+    {
+      "id": "agora",
+      "previsto": "2026-10-17T13:40:00-03:00",
+      "pasta": "periodo-inicial-2026-10-17",
+      "status": "realizada",
+      "inicio": 1792255282782,
+      "fim": 1792255522797,
+      "duracaoMs": 240015,
+      "mensagens": 110,
+      "perdaTelemetria": {
+        "recebidas": 110,
+        "perdidas": 0,
+        "taxa": 0
+      },
+      "reconexoesEsp32": 0,
+      "reconexoesBackend": 0,
+      "diferencaTimestampsDiagnostica": {
+        "minMs": -89,
+        "mediaMs": 8017.181818181818,
+        "p95Ms": 15466,
+        "maxMs": 16187,
+        "amostras": 110,
+        "medianaMs": 7936,
+        "desvioPadraoPopulacionalMs": 4757.652339665432,
+        "negativas": 1
+      },
+      "tempoRespostaComConfirmacaoSerial": {
+        "amostras": 23,
+        "minMs": 273.32790000000386,
+        "mediaMs": 302.2010739130441,
+        "medianaMs": 295.59159999999974,
+        "desvioPadraoPopulacionalMs": 26.16952444063101,
+        "p95Ms": 354.3478999999934,
+        "maxMs": 390.92200000000594
+      },
+      "sondasEnviadas": 23,
+      "sondasConfirmadas": 23,
+      "sondasSemConfirmacao": 0,
+      "configuracaoPreservada": true,
+      "confirmacoesSemSonda": 0,
+      "sondasInterrompidasPorFalha": false
+    },
+    {
+      "id": "16h45",
+      "previsto": "2026-10-17T16:45:00-03:00",
+      "pasta": "periodo-16h45-2026-10-17",
+      "status": "pendente"
+    },
+    {
+      "id": "19h45",
+      "previsto": "2026-10-17T19:45:00-03:00",
+      "pasta": "periodo-19h45-2026-10-17",
+      "status": "pendente"
+    }
+  ],
+  "variacaoEntreExecucoes": {
+    "amplitudeDasMediasMs": null,
+    "amplitudeDasMedianasMs": null,
+    "amplitudeDosP95Ms": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "apenasValidacaoDeInfraestrutura": true,
+  "execucaoOficial": false,
+  "amostras": 5,
+  "minMs": 277.1952999999994,
+  "mediaMs": 305.4854200000009,
+  "medianaMs": 289.2723000000042,
+  "desvioPadraoPopulacionalMs": 35.31905606900594,
+  "p95Ms": 374.6090000000004,
+  "maxMs": 374.6090000000004,
+  "configuracaoPreservada": true
+}

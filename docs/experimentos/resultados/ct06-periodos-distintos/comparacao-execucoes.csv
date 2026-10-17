@@ -1,0 +1,4 @@
+periodo,status,inicioEpochMs,fimEpochMs,mensagens,minMs,mediaMs,medianaMs,desvioPadraoPopulacionalMs,p95Ms,maxMs,perdidas,taxaPerda,reconexoesEsp32,reconexoesBackend,sondasEnviadas,sondasConfirmadas,sondasSemConfirmacao
+agora,realizada,1792255282782,1792255522797,110,273.32790000000386,302.2010739130441,295.59159999999974,26.16952444063101,354.3478999999934,390.92200000000594,0,0,0,0,23,23,0
+16h45,pendente,,,,,,,,,,,,,,,,
+19h45,pendente,,,,,,,,,,,,,,,,

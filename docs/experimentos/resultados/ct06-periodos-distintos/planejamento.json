@@ -1,0 +1,34 @@
+{
+  "timezone": "America/Sao_Paulo",
+  "duracaoAquisicaoMs": 240000,
+  "aquecimentoMaximoMs": 45000,
+  "atrasoMaximoInicioMs": 900000,
+  "intervaloSondasMs": 10000,
+  "timeoutConfirmacaoMs": 15000,
+  "periodos": [
+    {
+      "id": "agora",
+      "previsto": "2026-10-17T13:40:00-03:00",
+      "pasta": "periodo-inicial-2026-10-17"
+    },
+    {
+      "id": "16h45",
+      "previsto": "2026-10-17T16:45:00-03:00",
+      "pasta": "periodo-16h45-2026-10-17"
+    },
+    {
+      "id": "19h45",
+      "previsto": "2026-10-17T19:45:00-03:00",
+      "pasta": "periodo-19h45-2026-10-17"
+    }
+  ],
+  "metricaComplementar": "Tempo do POST local de configuracao vazia ate confirmacao serial do firmware pelo CLI; nao equivale a latencia unidirecional de telemetria nem a RTT exclusivamente MQTT.",
+  "regras": [
+    "Uma sonda por vez; interromper sondas apos falha para nao atribuir confirmacao atrasada a outra solicitacao.",
+    "Payload vazio nao altera parametros; conferir configuracao antes e depois.",
+    "Nao dividir o tempo de resposta por dois.",
+    "Conservar diferencas de timestamps e valores negativos da telemetria como diagnostico separado.",
+    "Nao usar o piloto como execucao oficial.",
+    "Nao substituir horarios perdidos por coletas consecutivas sem registrar a mudanca."
+  ]
+}

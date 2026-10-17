@@ -1,0 +1,68 @@
+{
+  "caminho": "REST local -> MQTT publico -> ESP32 -> serial Wokwi/CLI -> computador",
+  "relogio": "performance.now no mesmo processo",
+  "payload": {},
+  "intervaloMinimoMs": 10000,
+  "limiteConfirmacaoMs": 15000,
+  "correlacao": "ordem; uma sonda em transito; interromper apos qualquer falha",
+  "configuracaoAntes": {
+    "tOcupadoMs": 30000,
+    "janelaConfMs": 0,
+    "pulsosConf": 1,
+    "confirmacaoPorNivelMs": 0,
+    "luxLimiar": 300,
+    "tempAlvo": 26
+  },
+  "configuracaoDepois": {
+    "tOcupadoMs": 30000,
+    "janelaConfMs": 0,
+    "pulsosConf": 1,
+    "confirmacaoPorNivelMs": 0,
+    "luxLimiar": 300,
+    "tempAlvo": 26
+  },
+  "configuracaoPreservada": true,
+  "interrompidasPorFalha": false,
+  "amostras": [
+    {
+      "id": 1,
+      "enviadoEm": 1792254786740,
+      "confirmadoEm": 1792254787115,
+      "rttMs": 374.6090000000004,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 2,
+      "enviadoEm": 1792254796782,
+      "confirmadoEm": 1792254797082,
+      "rttMs": 299.9881999999998,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 3,
+      "enviadoEm": 1792254806815,
+      "confirmadoEm": 1792254807104,
+      "rttMs": 289.2723000000042,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 4,
+      "enviadoEm": 1792254816856,
+      "confirmadoEm": 1792254817142,
+      "rttMs": 286.3623000000007,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 5,
+      "enviadoEm": 1792254826895,
+      "confirmadoEm": 1792254827172,
+      "rttMs": 277.1952999999994,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    }
+  ]
+}

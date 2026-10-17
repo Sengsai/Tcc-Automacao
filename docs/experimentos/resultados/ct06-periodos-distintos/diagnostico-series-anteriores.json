@@ -1,0 +1,68 @@
+[
+  {
+    "sessao": 1,
+    "amostras": 134,
+    "crescimentoMsPorSegundoReal": 69.09561604856435,
+    "rQuadrado": 0.9998496030606313,
+    "primeiraDiferencaMs": -82,
+    "ultimaDiferencaMs": 19974,
+    "menorDiferencaMs": -82,
+    "negativas": 1,
+    "classificacao": "diferenca de timestamps afetada por relogios distintos; nao identifica isoladamente latencia fisica de transporte"
+  },
+  {
+    "sessao": 2,
+    "amostras": 134,
+    "crescimentoMsPorSegundoReal": 62.907417915397836,
+    "rQuadrado": 0.9997757019320703,
+    "primeiraDiferencaMs": -174,
+    "ultimaDiferencaMs": 18151,
+    "menorDiferencaMs": -174,
+    "negativas": 2,
+    "classificacao": "diferenca de timestamps afetada por relogios distintos; nao identifica isoladamente latencia fisica de transporte"
+  },
+  {
+    "sessao": 3,
+    "amostras": 133,
+    "crescimentoMsPorSegundoReal": 60.748819568488955,
+    "rQuadrado": 0.9999578014410712,
+    "primeiraDiferencaMs": -158,
+    "ultimaDiferencaMs": 17110,
+    "menorDiferencaMs": -158,
+    "negativas": 2,
+    "classificacao": "diferenca de timestamps afetada por relogios distintos; nao identifica isoladamente latencia fisica de transporte"
+  },
+  {
+    "sessao": 4,
+    "amostras": 135,
+    "crescimentoMsPorSegundoReal": 70.73894823610213,
+    "rQuadrado": 0.9999584220703214,
+    "primeiraDiferencaMs": -146,
+    "ultimaDiferencaMs": 20215,
+    "menorDiferencaMs": -146,
+    "negativas": 2,
+    "classificacao": "diferenca de timestamps afetada por relogios distintos; nao identifica isoladamente latencia fisica de transporte"
+  },
+  {
+    "sessao": 5,
+    "amostras": 135,
+    "crescimentoMsPorSegundoReal": 65.53784807367425,
+    "rQuadrado": 0.9981319050177517,
+    "primeiraDiferencaMs": -67,
+    "ultimaDiferencaMs": 18453,
+    "menorDiferencaMs": -67,
+    "negativas": 1,
+    "classificacao": "diferenca de timestamps afetada por relogios distintos; nao identifica isoladamente latencia fisica de transporte"
+  },
+  {
+    "sessao": 6,
+    "amostras": 135,
+    "crescimentoMsPorSegundoReal": 65.96258686718973,
+    "rQuadrado": 0.9997857195532256,
+    "primeiraDiferencaMs": -150,
+    "ultimaDiferencaMs": 18930,
+    "menorDiferencaMs": -150,
+    "negativas": 2,
+    "classificacao": "diferenca de timestamps afetada por relogios distintos; nao identifica isoladamente latencia fisica de transporte"
+  }
+]
