@@ -1,0 +1,28 @@
+$ node scripts/test-fsm.mjs
+firmware/test/fsm_test.cpp: In function 'int main()':
+firmware/test/fsm_test.cpp:24:34: warning: missing initializer for member 'FsmConfig::confirmacaoPorNivelMs' [-Wmissing-field-initializers]
+   24 |     const FsmConfig c{30000, 0, 1};
+      |                                  ^
+firmware/test/fsm_test.cpp:39:38: warning: missing initializer for member 'FsmConfig::confirmacaoPorNivelMs' [-Wmissing-field-initializers]
+   39 |     const FsmConfig c{30000, 10000, 2};
+      |                                      ^
+firmware/test/fsm_test.cpp:86:34: warning: missing initializer for member 'FsmConfig::confirmacaoPorNivelMs' [-Wmissing-field-initializers]
+   86 |     const FsmConfig c{30000, 0, 1};
+      |                                  ^
+ok: fig3: inicia desocupado
+ok: fig3: movimento -> OCUPADO
+ok: fig3: mantém ocupado antes de t_ocupado
+ok: fig3: desocupa após t_ocupado
+ok: janela: 1º pulso -> CONFIRMANDO
+ok: janela: pulso isolado descartado (falso positivo)
+ok: janela: 2 pulsos na janela -> OCUPADO
+ok: nivel: antes do limiar segue CONFIRMANDO
+ok: nivel: PIR sustentado confirma
+ok: nivel: 5 s em alto nao confirma
+ok: nivel: sem confirmacao a janela expira
+ok: nivel desativado: nivel alto nao confirma
+ok: nivel desativado: janela expira com PIR alto
+ok: overflow: não desocupa antes da hora
+ok: overflow: desocupa no tempo certo
+
+TODOS OK (0 falha(s))

@@ -1,0 +1,212 @@
+{
+  "caminho": "REST local -> MQTT publico -> ESP32 -> serial Wokwi/CLI -> computador",
+  "relogio": "performance.now no mesmo processo",
+  "payload": {},
+  "intervaloMinimoMs": 10000,
+  "limiteConfirmacaoMs": 15000,
+  "correlacao": "ordem; uma sonda em transito; interromper apos qualquer falha",
+  "configuracaoAntes": {
+    "tOcupadoMs": 30000,
+    "janelaConfMs": 0,
+    "pulsosConf": 1,
+    "confirmacaoPorNivelMs": 0,
+    "luxLimiar": 300,
+    "tempAlvo": 26
+  },
+  "configuracaoDepois": {
+    "tOcupadoMs": 30000,
+    "janelaConfMs": 0,
+    "pulsosConf": 1,
+    "confirmacaoPorNivelMs": 0,
+    "luxLimiar": 300,
+    "tempAlvo": 26
+  },
+  "configuracaoPreservada": true,
+  "interrompidasPorFalha": false,
+  "amostras": [
+    {
+      "id": 1,
+      "enviadoEm": 1792266341567,
+      "confirmadoEm": 1792266341974,
+      "rttMs": 407.52360000000044,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 2,
+      "enviadoEm": 1792266351613,
+      "confirmadoEm": 1792266352376,
+      "rttMs": 763.0213000000003,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 3,
+      "enviadoEm": 1792266361665,
+      "confirmadoEm": 1792266362121,
+      "rttMs": 455.5604999999996,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 4,
+      "enviadoEm": 1792266371708,
+      "confirmadoEm": 1792266372053,
+      "rttMs": 345.2147000000041,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 5,
+      "enviadoEm": 1792266381741,
+      "confirmadoEm": 1792266382246,
+      "rttMs": 505.0893999999971,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 6,
+      "enviadoEm": 1792266391780,
+      "confirmadoEm": 1792266392089,
+      "rttMs": 309.2161000000051,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 7,
+      "enviadoEm": 1792266401813,
+      "confirmadoEm": 1792266402448,
+      "rttMs": 635.2486999999965,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 8,
+      "enviadoEm": 1792266411843,
+      "confirmadoEm": 1792266412231,
+      "rttMs": 387.7914999999921,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 9,
+      "enviadoEm": 1792266421896,
+      "confirmadoEm": 1792266422329,
+      "rttMs": 432.72260000000824,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 10,
+      "enviadoEm": 1792266431932,
+      "confirmadoEm": 1792266432375,
+      "rttMs": 442.8773000000074,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 11,
+      "enviadoEm": 1792266441975,
+      "confirmadoEm": 1792266442388,
+      "rttMs": 413.713499999998,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 12,
+      "enviadoEm": 1792266452016,
+      "confirmadoEm": 1792266452412,
+      "rttMs": 395.25160000000324,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 13,
+      "enviadoEm": 1792266462060,
+      "confirmadoEm": 1792266463280,
+      "rttMs": 1220.0301000000036,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 14,
+      "enviadoEm": 1792266472100,
+      "confirmadoEm": 1792266472601,
+      "rttMs": 501.5590000000084,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 15,
+      "enviadoEm": 1792266482150,
+      "confirmadoEm": 1792266483551,
+      "rttMs": 1400.4450999999826,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 16,
+      "enviadoEm": 1792266492190,
+      "confirmadoEm": 1792266492703,
+      "rttMs": 513.5353999999934,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 17,
+      "enviadoEm": 1792266502232,
+      "confirmadoEm": 1792266503727,
+      "rttMs": 1495.1138999999966,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 18,
+      "enviadoEm": 1792266512268,
+      "confirmadoEm": 1792266513183,
+      "rttMs": 914.3746000000101,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 19,
+      "enviadoEm": 1792266522315,
+      "confirmadoEm": 1792266522708,
+      "rttMs": 393.1631000000052,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 20,
+      "enviadoEm": 1792266532348,
+      "confirmadoEm": 1792266533589,
+      "rttMs": 1241.439400000003,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 21,
+      "enviadoEm": 1792266542374,
+      "confirmadoEm": 1792266542703,
+      "rttMs": 329.1221999999834,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 22,
+      "enviadoEm": 1792266552423,
+      "confirmadoEm": 1792266553332,
+      "rttMs": 908.8568000000087,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    },
+    {
+      "id": 23,
+      "enviadoEm": 1792266562461,
+      "confirmadoEm": 1792266562847,
+      "rttMs": 386.1386999999813,
+      "status": "confirmada",
+      "serial": "[mqtt] config: tOcupado=30000 janela=0 pulsos=1 nivel=0 lux=300 temp=26.0"
+    }
+  ]
+}

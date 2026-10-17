@@ -1,0 +1,45 @@
+{
+  "inicio": 1792266341564,
+  "fim": 1792266581571,
+  "inicioBrasilia": "17/10/2026, 16:45:41",
+  "duracaoSolicitadaMs": 240000,
+  "broker": "broker.hivemq.com:1883",
+  "topico": "tcc-unip-7f3a9c/sala01/estado",
+  "demo": false,
+  "metricas": {
+    "latencia": {
+      "minMs": -275,
+      "mediaMs": 11867.881578947368,
+      "p95Ms": 23420,
+      "maxMs": 25183,
+      "amostras": 76
+    },
+    "perda": {
+      "recebidas": 76,
+      "perdidas": 25,
+      "taxa": 0.24752475247524752
+    },
+    "tempoLigado": {
+      "luzMs": 0,
+      "hvacMs": 0
+    },
+    "ocupacao": {
+      "transicoes": 0,
+      "tempoOcupadoMs": 0
+    }
+  },
+  "medianaMs": 8944.5,
+  "desvioPadraoPopulacionalMs": 7977.038985288875,
+  "latenciasNegativas": 1,
+  "reconexoesEsp32": 0,
+  "reconexoesBackend": 1,
+  "observacoes": [
+    "Latência depende da diferença entre relógios do PC e ESP32 sincronizado por NTP.",
+    "Perda estimada por lacunas de seq; não detecta perdas antes da primeira ou depois da última mensagem.",
+    "A janela começa após a primeira leitura com NTP; aquecimento máximo de 45 s. Reconexões excluem a partida inicial.",
+    "O tópico e client ID do firmware são fixos; não executar outra instância desse firmware simultaneamente."
+  ],
+  "inicioSessao": 1792266329646,
+  "incluiInicializacao": false,
+  "sondasConfiguracaoHabilitadas": true
+}

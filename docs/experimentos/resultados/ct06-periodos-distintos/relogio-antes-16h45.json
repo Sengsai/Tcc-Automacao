@@ -1,0 +1,12 @@
+{
+  "instante": 1792266321123,
+  "servidor": "time.windows.com",
+  "offsetsMs": [
+    950.9691,
+    952.0769,
+    950.3801
+  ],
+  "codigo": 0,
+  "saidaOriginalBase64": "QWNvbXBhbmhhbmRvIHRpbWUud2luZG93cy5jb20gWzE2OC42MS4yMTUuNzQ6MTIzXS4KQ29sZXRhbmRvIDMgYW1vc3RyYXMuCkEgaG9yYSBhdHVhbCCCIDE3LzEwLzIwMjYgMTY6NDU6MTYuCjE2OjQ1OjE2LCArMDAuOTUwOTY5MXMKMTY6NDU6MTgsICswMC45NTIwNzY5cwoxNjo0NToyMCwgKzAwLjk1MDM4MDFzCg==",
+  "codificacao": "OEM Windows"
+}
