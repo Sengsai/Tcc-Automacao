@@ -1,0 +1,586 @@
+[
+ {
+  "id": "R01",
+  "consultas": {
+   "1": 1
+  },
+  "registro": "Página de projeto no flux.ai (ferramenta de hardware)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R02",
+  "consultas": {
+   "1": 1
+  },
+  "registro": "FERNANDO, J.; SETYANINGSIH, E.; FATIMAH, T. Automated room lighting and fan system for energy efficiency in smart homes. TESLA: Jurnal Teknik Elektro, v. 27, n. 1, 2025",
+  "codigo": "E07",
+  "decisao": "INC:E07"
+ },
+ {
+  "id": "R03",
+  "consultas": {
+   "1": 2,
+   "9": 2
+  },
+  "registro": "MUTMAINNAH; TRISTIANTORO, R. Microcontroller-based smart control system for automatic lighting and air conditioning control in campus facilities. Jurnal Teknologi Elekterika, 2025",
+  "codigo": "E04",
+  "decisao": "INC:E04"
+ },
+ {
+  "id": "R04",
+  "consultas": {
+   "1": 1
+  },
+  "registro": "Documento do Google Docs exportado (sem autoria ou veículo)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R05",
+  "consultas": {
+   "1": 1
+  },
+  "registro": "Relatório de projeto pessoal em página GitHub (lazaromartull.github.io)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R06",
+  "consultas": {
+   "1": 1
+  },
+  "registro": "AMIRUDDIN, A. et al. Performance evaluation of IoT-based AC control using multi-modal fuzzy sensors. Journal of System and Computer Engineering, v. 7, n. 2, 2026",
+  "codigo": "E08",
+  "decisao": "INC:E08"
+ },
+ {
+  "id": "R07",
+  "consultas": {
+   "1": 1
+  },
+  "registro": "DINMOHAMMADI, F.; FAROOK, A. M.; SHAFIEE, M. Improving energy efficiency in buildings with an IoT-based smart monitoring system. Energies, v. 18, n. 5, art. 1269, 2025",
+  "codigo": "E01",
+  "decisao": "INC:E01"
+ },
+ {
+  "id": "R08",
+  "consultas": {
+   "2": 2
+  },
+  "registro": "HEIDARIFAR, H. Energy optimization of a residential building using occupancy prediction via sensor fusion and machine learning. Dissertação (MSc), University of Alberta, 2023",
+  "codigo": "X7",
+  "decisao": "Sem arquitetura computacional de controle (controle apenas simulado)"
+ },
+ {
+  "id": "R09",
+  "consultas": {
+   "2": 1
+  },
+  "registro": "YE, Z. et al. A low-cost experimental testbed for energy-saving HVAC control based on human behavior monitoring. Int. J. Cyber-Physical Systems, v. 2, n. 1, 2020",
+  "codigo": "X5",
+  "decisao": "Texto integral indisponível sem informações públicas suficientes"
+ },
+ {
+  "id": "R10",
+  "consultas": {
+   "2": 1,
+   "3": 1
+  },
+  "registro": "Lista de publicações do laboratório HVAC da Texas A&M (página institucional)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R11",
+  "consultas": {
+   "2": 1
+  },
+  "registro": "PANG, Z. et al. Field testing of the energy-saving potential of an occupancy presence sensing system in an apartment unit. ASHRAE Transactions, v. 129, 2023",
+  "codigo": "E03c",
+  "decisao": "INC:E03c"
+ },
+ {
+  "id": "R12",
+  "consultas": {
+   "2": 1,
+   "4": 1
+  },
+  "registro": "PANG, Z. et al. Quantification of HVAC energy savings through occupancy presence sensors in an apartment setting. Energy and Buildings, v. 302, 2024",
+  "codigo": "E03",
+  "decisao": "INC:E03"
+ },
+ {
+  "id": "R13",
+  "consultas": {
+   "2": 1
+  },
+  "registro": "WEE, J.; HONG, Y.; CHAE, Y. T. Adaptive control for hydronic radiant heating system using occupant behaviors in residential building. Applied Sciences, v. 14, n. 21, 2024",
+  "codigo": "X7",
+  "decisao": "Sem arquitetura computacional de controle (controle apenas simulado)"
+ },
+ {
+  "id": "R14",
+  "consultas": {
+   "2": 1,
+   "3": 1,
+   "4": 1
+  },
+  "registro": "Página de busca por autor no DOE PAGES (Smith-Cortez)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R15",
+  "consultas": {
+   "2": 1
+  },
+  "registro": "BROOKS, J. et al. An experimental investigation of occupancy-based energy-efficient control of commercial building indoor climate. IEEE CDC, 2014",
+  "codigo": "X2",
+  "decisao": "Publicação anterior a 2016"
+ },
+ {
+  "id": "R16",
+  "consultas": {
+   "2": 1
+  },
+  "registro": "HEIDARIFAR, H. et al. Energy saving in a residential building using occupancy information. CSME Congress, 2023 (mesmo estudo de R08)",
+  "codigo": "X7",
+  "decisao": "Sem arquitetura computacional de controle (controle apenas simulado)"
+ },
+ {
+  "id": "R17",
+  "consultas": {
+   "3": 6,
+   "4": 4
+  },
+  "registro": "PANG, Z. et al. Long-term field testing of the accuracy and HVAC energy savings potential of occupancy presence sensors in a single-family home. Energy and Buildings, v. 328, 2025",
+  "codigo": "E02",
+  "decisao": "INC:E02"
+ },
+ {
+  "id": "R18",
+  "consultas": {
+   "3": 1
+  },
+  "registro": "Página institucional do projeto ARPA-E (Texas A&M)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R19",
+  "consultas": {
+   "3": 1,
+   "4": 1
+  },
+  "registro": "CHEN, Y.; YIN, R. Estimating electricity saving-potential in small offices using adaptive thermal comfort. arXiv:2205.10324, 2022",
+  "codigo": "X8",
+  "decisao": "Não revisado por pares"
+ },
+ {
+  "id": "R20",
+  "consultas": {
+   "4": 1
+  },
+  "registro": "PINHEIRO, L. et al. Uncertainty quantification of occupancy sensor errors on energy savings and thermal comfort in residential homes. ASHRAE Transactions, v. 132, 2026",
+  "codigo": "X3",
+  "decisao": "Sem arquitetura computacional (simulação energética)"
+ },
+ {
+  "id": "R21",
+  "consultas": {
+   "4": 1
+  },
+  "registro": "PINHEIRO, L. et al. Quantifying the impact of occupancy sensor errors on energy savings, thermal comfort, and peak demand in residential smart thermostats. J. Building Performance Simulation, 2026",
+  "codigo": "X3",
+  "decisao": "Sem arquitetura computacional (simulação energética)"
+ },
+ {
+  "id": "R22",
+  "consultas": {
+   "4": 1
+  },
+  "registro": "PANG, Z. et al. How much HVAC energy could be saved from the occupant-centric smart home thermostat: a nationwide simulation study. Applied Energy, v. 283, 2021",
+  "codigo": "X3",
+  "decisao": "Sem arquitetura computacional (simulação energética)"
+ },
+ {
+  "id": "R23",
+  "consultas": {
+   "5": 2
+  },
+  "registro": "Performance evaluation of an ESPresense/MQTT architecture for real-time locating system. ERRC/SBC, 2025",
+  "codigo": "X4",
+  "decisao": "Fora do tema (sem controle de iluminação ou temperatura)"
+ },
+ {
+  "id": "R24",
+  "consultas": {
+   "5": 3
+  },
+  "registro": "WIRASAPTA, A. H.; PAMUNGKAS, T. D. Real-time IoT temperature monitoring using Xiaomi Mijia BLE, ESP32, MQTT and EMQX. J. Applied Electrical Engineering, v. 10, n. 1, 2026",
+  "codigo": "X4",
+  "decisao": "Fora do tema (sem controle de iluminação ou temperatura)"
+ },
+ {
+  "id": "R25",
+  "consultas": {
+   "5": 1
+  },
+  "registro": "LEE, Y.-D. A study on performance analysis of a messaging system in IoT environments. J. Convergence Signal Processing, v. 24, n. 2, 2023",
+  "codigo": "X4",
+  "decisao": "Fora do tema (sem controle de iluminação ou temperatura)"
+ },
+ {
+  "id": "R26",
+  "consultas": {
+   "5": 1
+  },
+  "registro": "WIDIYANTO, A. Sistema de comunicação IoT para dados de criação de coelhos (ESP32, MQTT, Firebase). Relatório de graduação, Universitas Diponegoro",
+  "codigo": "X4",
+  "decisao": "Fora do tema (sem controle de iluminação ou temperatura)"
+ },
+ {
+  "id": "R27",
+  "consultas": {
+   "5": 2
+  },
+  "registro": "Análise de QoS do protocolo MQTT em painel solar inteligente com ESP32. Prosiding Inotek (UN PGRI Kediri)",
+  "codigo": "X4",
+  "decisao": "Fora do tema (sem controle de iluminação ou temperatura)"
+ },
+ {
+  "id": "R28",
+  "consultas": {
+   "5": 1
+  },
+  "registro": "AMIRKHANOVA, G. et al. A lightweight, end-to-end encrypted data pipeline for IIoT: an AES-GCM implementation for ESP32, MQTT and Raspberry Pi. Information, v. 17, n. 1, 2026",
+  "codigo": "X4",
+  "decisao": "Fora do tema (sem controle de iluminação ou temperatura)"
+ },
+ {
+  "id": "R29",
+  "consultas": {
+   "6": 1
+  },
+  "registro": "Repositório de código no GitHub (rogerioo/Embarcados_Projeto03)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R30",
+  "consultas": {
+   "6": 1
+  },
+  "registro": "MILLNITZ, D.; TRINDADE, A. B. Estudo de um sistema de automação residencial integrado com ESP32 para acionamento via smartwatch. IFSC, c. 2024",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R31",
+  "consultas": {
+   "6": 1
+  },
+  "registro": "Registro no eduCAPES (handle capes/1095628), página inacessível ao mecanismo de leitura",
+  "codigo": "X10",
+  "decisao": "Texto integral indisponível ou veículo não identificável"
+ },
+ {
+  "id": "R32",
+  "consultas": {
+   "6": 1
+  },
+  "registro": "SOUZA, B. M. S. Automação residencial com ESP32. TCC técnico, ETEC/CPS, 2025",
+  "codigo": "X6",
+  "decisao": "Trabalho de conclusão de graduação ou técnico"
+ },
+ {
+  "id": "R33",
+  "consultas": {
+   "6": 1
+  },
+  "registro": "VETTORAZZO, K. Future home: transformação de uma casa inteligente. TCC, ETEC/CPS, 2025",
+  "codigo": "X6",
+  "decisao": "Trabalho de conclusão de graduação ou técnico"
+ },
+ {
+  "id": "R34",
+  "consultas": {
+   "6": 1
+  },
+  "registro": "FOLCHETTI, G. M. Internet das Coisas aplicada na automação da irrigação de uma horta residencial. TCC, UNESP, 2026",
+  "codigo": "X6",
+  "decisao": "Trabalho de conclusão de graduação ou técnico"
+ },
+ {
+  "id": "R35",
+  "consultas": {
+   "6": 1
+  },
+  "registro": "MENEZES, F. M. Internet das Coisas aplicada à domótica. DEL/UFV, c. 2025",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R36",
+  "consultas": {
+   "7": 1,
+   "8": 5
+  },
+  "registro": "CHENG, Y. et al. Design and application of a smart lighting system based on distributed wireless sensor networks. Applied Sciences, v. 10, n. 23, 2020",
+  "codigo": "X11",
+  "decisao": "Edificação de grande porte (estação de metrô e escritório de 1.399 m²)"
+ },
+ {
+  "id": "R37",
+  "consultas": {
+   "7": 1
+  },
+  "registro": "DE RUBEIS, T. et al. A proposal for a human-in-the-loop daylight control system — preliminary experimental results. Energies, v. 17, n. 3, 2024",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R38",
+  "consultas": {
+   "7": 1
+  },
+  "registro": "FUTAGAMI, T. Evaluation of occupancy lighting control based on low-power privacy-preserving sensor. J. Japan Society for Precision Engineering, v. 90, n. 2, 2024",
+  "codigo": "E09",
+  "decisao": "INC:E09"
+ },
+ {
+  "id": "R39",
+  "consultas": {
+   "7": 1
+  },
+  "registro": "ATAYERO, A. A. et al. Occupancy controlled lighting system for smart buildings. Proc. WCECS, 2017",
+  "codigo": "X12",
+  "decisao": "Sem resultado de avaliação do sistema (apenas verificação de funcionamento do hardware)"
+ },
+ {
+  "id": "R40",
+  "consultas": {
+   "7": 4
+  },
+  "registro": "JENNINGS, J. D. et al. Comparison of control options in private offices in an advanced lighting controls testbed. J. Illuminating Engineering Society, 2000",
+  "codigo": "X2",
+  "decisao": "Publicação anterior a 2016"
+ },
+ {
+  "id": "R41",
+  "consultas": {
+   "7": 1
+  },
+  "registro": "NAGY, Z. et al. Illuminating adaptive comfort: dynamic lighting for the active occupant. Windsor Conference, 2014",
+  "codigo": "X2",
+  "decisao": "Publicação anterior a 2016"
+ },
+ {
+  "id": "R42",
+  "consultas": {
+   "7": 1
+  },
+  "registro": "Biografia de palestrante (ICACT 2017)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R43",
+  "consultas": {
+   "8": 1
+  },
+  "registro": "A novel design of an automatic lighting control system for a wireless sensor network with increased sensor lifetime. Sensors, 2011",
+  "codigo": "X2",
+  "decisao": "Publicação anterior a 2016"
+ },
+ {
+  "id": "R44",
+  "consultas": {
+   "8": 1
+  },
+  "registro": "Distributed environment control using wireless sensor/actuator networks for lighting applications. Sensors, 2010",
+  "codigo": "X2",
+  "decisao": "Publicação anterior a 2016"
+ },
+ {
+  "id": "R45",
+  "consultas": {
+   "8": 1
+  },
+  "registro": "Distributed lighting system based on wireless sensor and actuator networks. Ad Hoc & Sensor Wireless Networks, 2013",
+  "codigo": "X2",
+  "decisao": "Publicação anterior a 2016"
+ },
+ {
+  "id": "R46",
+  "consultas": {
+   "8": 1
+  },
+  "registro": "A smart lighting system using wireless sensor actuator network. Trabalho de congresso indexado no Scopus, 2018 (registro REDI/CEDIA 7625, sem autoria)",
+  "codigo": "X5",
+  "decisao": "Texto integral indisponível sem informações públicas suficientes"
+ },
+ {
+  "id": "R47",
+  "consultas": {
+   "8": 1
+  },
+  "registro": "WANG, L. Home intelligent lighting control system based on wireless sensor. J. Engineering, Design and Technology, v. 18, n. 5, 2020",
+  "codigo": "X5",
+  "decisao": "Texto integral indisponível sem informações públicas suficientes"
+ },
+ {
+  "id": "R48",
+  "consultas": {
+   "9": 2
+  },
+  "registro": "RAMADHANI, R. R.; YULIANA, M.; PRATIARSO, A. Smart room lighting system for energy efficiency in indoor environment. IJAIR, 2022",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R49",
+  "consultas": {
+   "9": 2
+  },
+  "registro": "IoT-based smart street lighting system for reducing energy consumption. J. Applied Engineering Science & Technology (Biskra)",
+  "codigo": "X9",
+  "decisao": "Ambiente externo"
+ },
+ {
+  "id": "R50",
+  "consultas": {
+   "9": 1
+  },
+  "registro": "SAPUTRA, T.; SURAPATI, U. Analysis of the effectiveness of IoT-based automatic street lighting control using linear regression method. IJSECS, v. 4, n. 2, 2024",
+  "codigo": "X9",
+  "decisao": "Ambiente externo"
+ },
+ {
+  "id": "R51",
+  "consultas": {
+   "9": 1
+  },
+  "registro": "Página de autor no portal Garuda (Rafika Rizky Ramadhani)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R52",
+  "consultas": {
+   "9": 1
+  },
+  "registro": "OMIYALE, A. D. et al. Design and experimental evaluation of an IoT-integrated smart lighting system with adaptive control and wireless power transfer. UIJSLICTR, v. 17, n. 1, 2026",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R53",
+  "consultas": {
+   "9": 1
+  },
+  "registro": "PRIMUS, C. Development of IoT based smart lighting and smart curtain systems. Final Year Project, UNITEN, 2019",
+  "codigo": "X6",
+  "decisao": "Trabalho de conclusão de graduação ou técnico"
+ },
+ {
+  "id": "R54",
+  "consultas": {
+   "10": 3
+  },
+  "registro": "CHEW, I. et al. Design of an energy-saving controller for an intelligent LED lighting system. Energy and Buildings, v. 120, 2016",
+  "codigo": "E05",
+  "decisao": "INC:E05"
+ },
+ {
+  "id": "R55",
+  "consultas": {
+   "10": 1
+  },
+  "registro": "LIU, J. et al. Fuzzy logic controller for energy savings in a smart LED lighting system considering lighting comfort and daylight. Energy and Buildings, v. 127, 2016",
+  "codigo": "X5",
+  "decisao": "Texto integral indisponível sem informações públicas suficientes"
+ },
+ {
+  "id": "R56",
+  "consultas": {
+   "10": 3
+  },
+  "registro": "An approach to energy conservation in lighting systems using luminaire-based sensor for automatic dimming. Repositório KMITL (sem autoria no registro)",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R57",
+  "consultas": {
+   "10": 1
+  },
+  "registro": "WAGIMAN, K. R.; ABDULLAH, M. N. Intelligent lighting control system for energy savings in office building. IJEECS, v. 11, n. 1, 2018",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R58",
+  "consultas": {
+   "10": 1
+  },
+  "registro": "An energy efficient microcontroller based smart light controlling system. Depósito no academia.edu, 2021",
+  "codigo": "X8",
+  "decisao": "Não revisado por pares"
+ },
+ {
+  "id": "R59",
+  "consultas": {
+   "10": 1
+  },
+  "registro": "TANG, S. et al. Development of a prototype smart home intelligent lighting control architecture using sensors onboard a mobile computing system. Energy and Buildings, 2016",
+  "codigo": "X1",
+  "decisao": "Sem controle baseado em detecção de presença"
+ },
+ {
+  "id": "R60",
+  "consultas": {
+   "11": 4
+  },
+  "registro": "KONG, M.; DONG, B.; ZHANG, R.; O'NEILL, Z. HVAC energy savings, thermal comfort and air quality for occupant-centric control through a side-by-side experimental study. Applied Energy, v. 306, 2022",
+  "codigo": "E06",
+  "decisao": "INC:E06"
+ },
+ {
+  "id": "R61",
+  "consultas": {
+   "11": 1
+  },
+  "registro": "Lista de publicações do laboratório HVAC da Texas A&M (segunda página institucional)",
+  "codigo": "NA",
+  "decisao": "NA"
+ },
+ {
+  "id": "R62",
+  "consultas": {
+   "11": 2
+  },
+  "registro": "PANG, Z. et al. Nationwide HVAC energy-saving potential quantification for office buildings with occupant-centric controls in various climates. Applied Energy, v. 279, 2020",
+  "codigo": "X3",
+  "decisao": "Sem arquitetura computacional (simulação energética)"
+ },
+ {
+  "id": "R63",
+  "consultas": {
+   "11": 2
+  },
+  "registro": "YE, Y. et al. Energy-saving potential evaluation for primary schools with occupant-centric controls. Applied Energy, v. 293, 2021",
+  "codigo": "X3",
+  "decisao": "Sem arquitetura computacional (simulação energética)"
+ },
+ {
+  "id": "R64",
+  "consultas": {
+   "11": 1
+  },
+  "registro": "PANG, Z. et al. Adopting occupancy-based HVAC controls in commercial building energy codes. Applied Energy, v. 349, 2023",
+  "codigo": "X3",
+  "decisao": "Sem arquitetura computacional (simulação energética)"
+ }
+]
